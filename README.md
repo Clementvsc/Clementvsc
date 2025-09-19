@@ -2,14 +2,13 @@
 
 # 👋 Sahaya Clement Vincent Martin
 
-**🔥 Full-Stack Developer | ☁️ Cloud Architect | 🛡️ Cybersecurity Specialist**
+**🚀 DevOps Engineer | ☁️ Cloud/Platform Engineer | 🛡️ Cloud Security-minded**
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+Profile!;Full-Stack+Developer+from+Toronto;Cloud+%26+Cybersecurity+Enthusiast;Always+Learning+New+Technologies)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Building+cloud-native+platforms+with+Terraform%2C+Kubernetes+%26+CI%2FCD;Automating+everything+with+Python+and+GitHub+Actions;Reliability%2C+Security%2C+and+Speed+at+Scale)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sahaya-clement/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://clementvsc.github.io/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:clementvsc.martin@gmail.com)
-[![Toronto](https://img.shields.io/badge/Toronto-🇨🇦-blue?style=for-the-badge)](https://maps.google.com/?q=Toronto,ON,Canada)
 
 </div>
 
@@ -17,221 +16,97 @@
 
 ## 🎯 PROFESSIONAL SUMMARY
 
-**Seeking Full-Stack Developer, Cloud Engineer & Cybersecurity roles in Toronto 🇨🇦**
+DevOps and Cloud Engineer with a strong foundation in automation, infrastructure-as-code, and platform engineering. I design and operate secure, scalable CI/CD platforms using Terraform, Kubernetes, and GitHub Actions, with Python at the core for tooling, integrations, and automation. Experienced across AWS and Azure, I focus on developer productivity, cloud cost efficiency, and security-by-design (DevSecOps) practices.
 
-Passionate Technology Professional with expertise in modern web development, cloud architecture, and cybersecurity. Proven track record in building scalable applications, securing cloud infrastructures, and implementing DevSecOps practices. Currently seeking opportunities to contribute to innovative projects while expanding expertise in cloud security and emerging technologies.
-
-### 🏆 EXPERTISE BADGES
-
-[![Cloud](https://img.shields.io/badge/Cloud_Computing-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://github.com/Clementvsc)
-[![Security](https://img.shields.io/badge/Cybersecurity-FF6B35?style=for-the-badge&logo=security&logoColor=white)](https://github.com/Clementvsc)
-[![Development](https://img.shields.io/badge/Full_Stack-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/Clementvsc)
-[![Location](https://img.shields.io/badge/Toronto_Based-🍁-red?style=for-the-badge)](https://github.com/Clementvsc)
+Currently seeking DevOps/Cloud roles: Platform Engineer, DevOps Engineer, Cloud Engineer, or Cloud Security–focused DevOps.
 
 ---
 
-## 🎓 EDUCATION & CERTIFICATIONS
+## 🛠️ CORE SKILLS (DevOps-first)
 
-<table>
-<tr>
-<td width="50%">
-
-### 🎓 Academic Background
-**Bachelor of Technology (B.Tech)**  
-*Information Technology*
-
-</td>
-<td width="50%">
-
-### 🏆 Post-Graduate Certifications
-**🌩️ Cloud Computing**  
-*Humber Polytechnic*
-
-**🔐 Cybersecurity & Threat Management**  
-*Seneca Polytechnic*
-
-</td>
-</tr>
-</table>
+- Cloud: AWS (EKS, EC2, VPC, IAM, RDS, S3), Azure (AKS, ACR, Azure DevOps)
+- IaC: Terraform, Terragrunt, CloudFormation (basic), Helm, Kustomize
+- Containers & Orchestration: Docker, Kubernetes (EKS/AKS), Ingress, Operators, HPA
+- CI/CD: GitHub Actions, Jenkins, Azure Pipelines; trunk-based dev, GitOps (ArgoCD/Flux)
+- SRE & Observability: Prometheus, Grafana, Loki, ELK/EFK, Alertmanager, SLOs/SLIs
+- Security/DevSecOps: OIDC, IAM least-privilege, secrets mgmt (Sealed Secrets, SOPS), image scanning (Trivy), policy as code (OPA/Conftest)
+- Networking: VPC, Subnets, NAT/GW, Load Balancers, DNS (Route53), TLS, Zero Trust basics
+- Databases/Queues: PostgreSQL, MySQL, Redis, SQS/Kafka (intro)
+- Programming/Scripting: Python (automation/SDK/CLIs), Bash, YAML, JSON, Make
 
 ---
 
-## 🚀 FEATURED COURSEWORK & PROJECTS
+## 🚀 FEATURED PROJECTS (Real-world, DevOps-focused)
 
-### 🌩️ Cloud Computing Projects (Humber)
+### 1) Terraform Cloud/Platform Automation
+- Stack: Terraform, Terragrunt, AWS (VPC, EKS, RDS, IAM, S3), GitHub Actions, OIDC
+- Highlights:
+  - Built reusable Terraform modules for VPC, EKS, RDS, and IAM with least-privilege.
+  - Implemented GitHub OIDC to enable keyless deploys to AWS, removing long-lived secrets.
+  - Multi-env (dev/stage/prod) via Terragrunt with drift detection and plan/apply gates.
+  - Added policy-as-code checks (OPA/Conftest) and security scanning (tfsec, Trivy) in CI.
+- Outcomes: Repeatable environment provisioning, faster onboarding, and improved security posture.
 
-#### 🔹 EVCare Administration Console
-**Technologies:** Cloud, MySQL, React/Node.js, AWS-RDS, Web App  
-**Description:** Developed a comprehensive admin console for EV charging management with cloud infrastructure on AWS
+### 2) Kubernetes Platform Engineering (Cloud-Native Orchestration)
+- Stack: Kubernetes (EKS/AKS), Helm, ArgoCD, NGINX Ingress, Cert-Manager, Prometheus/Grafana
+- Highlights:
+  - Designed a GitOps workflow: app and infra Helm charts deployed via ArgoCD.
+  - Implemented autoscaling (HPA), canary rollouts, and blue/green strategies with health checks.
+  - Centralized logging/metrics with EFK/Loki and actionable alerts via Alertmanager.
+  - Secured cluster with RBAC, network policies, and image/signature scanning policies.
+- Outcomes: Reliable release cadence, faster recovery, and strong observability.
 
-#### 🔹 Canventure AI Platform
-**Technologies:** Big Data, Business Intelligence, Cloud Computing  
-**Description:** Built an AI-driven business intelligence platform leveraging cloud technologies for data analytics
+### 3) "ABC App" — Sample Microservices App (placeholder)
+- Stack: Python (FastAPI), Node.js, PostgreSQL, Redis, Docker, Kubernetes, GitHub Actions
+- Highlights:
+  - Monorepo with services for API, auth, and worker; containerized with Docker.
+  - CI/CD pipelines: build, test, SBOM, image scan, and Helm-based deploy to EKS.
+  - Feature flags and environment-specific configuration via Helm values.
+- Note: This is a placeholder entry until the repository is public. Ask for a demo.
 
-### 🛡️ Cybersecurity Projects (Seneca)
-
-#### 🔹 Security Enhancement for SOC2 Compliance
-**Technologies:** Security Frameworks, Web Application Security, Compliance  
-**Description:** Implemented comprehensive security measures to achieve SOC2 compliance standards
-
-#### 🔹 Cybersecurity Threat Detection System
-**Technologies:** Python, Machine Learning, Network Security, Threat Intelligence  
-**Description:** Developed an automated threat detection system using ML algorithms for real-time security monitoring
+### 4) Python Automation Toolkit for Cloud Ops
+- Stack: Python, Boto3/Azure SDK, Click/Typer, GitHub Actions, Make
+- Highlights: CLI tools for rotating credentials, cleaning unused resources, tagging policies, and cost reports. Packaged and published internally; tested with pytest and tox.
 
 ---
 
-## 💼 TOP SKILLS
+## 📚 EDUCATION & CERTIFICATIONS
 
-### ☁️ Cloud Platforms
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0089D0?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-
-### 🔐 Cybersecurity Tools
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-
-### 💻 Programming Languages
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
-### 🚀 Frameworks & Libraries
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-
-### 🗄️ Databases & Storage
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
-
-### 🛠️ DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+- Bachelor of Technology (B.Tech) – Information Technology
+- Post-Grad Certificates: Cloud Computing (Humber Polytechnic), Cybersecurity & Threat Management (Seneca Polytechnic)
+- Relevant trainings: Kubernetes Fundamentals, Terraform Deep Dive, AWS Well-Architected, DevSecOps practices
 
 ---
 
 ## 📊 GITHUB ANALYTICS
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Clementvsc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Clementvsc&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Clementvsc&layout=compact&theme=tokyonight&hide_border=true)
-![Coding Activity](https://github-readme-activity-graph.vercel.app/graph?username=Clementvsc&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=c3e88d&area=true&hide_border=true)
-
-</div>
+![GitHub Stats](https://camo.githubusercontent.com/e0466d807616f61fb935a13a27ba7596847e39df7b8600744fd9c2aac61ab40e/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d436c656d656e747673632673686f775f69636f6e733d74727565267468656d653d746f6b796f6e6967687426686964655f626f726465723d7472756526636f756e745f707269766174653d74727565)
+![GitHub Streak](https://camo.githubusercontent.com/5cdd59c813666af0c7d777656bfc2f43f3e6d4782df09191446f00bbbc67d941/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d436c656d656e74767363267468656d653d746f6b796f6e6967687426686964655f626f726465723d74727565)
+![Top Languages](https://camo.githubusercontent.com/5add20955f655f6e0efcab84512ff826ce10634f3e9e9d2c973e5f2806479f18/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d436c656d656e74767363266c61796f75743d636f6d70616374267468656d653d746f6b796f6e6967687426686964655f626f726465723d74727565)
 
 ---
 
 ## 🎯 CURRENT OBJECTIVES
 
-<table>
-<tr>
-<td width="33%">
-
-### 🔍 CAREER FOCUS
-**Actively Seeking:**
-- **Cloud Solution Architect**
-- **Cloud Security Architect** 
-- **Software Architect**
-- **DevOps Engineer**
-- **Cybersecurity Analyst**
-- **Threat Management Specialist**
-- **Security Engineer**
-- **Full-Stack Developer**
-
-</td>
-<td width="33%">
-
-### 🌱 SKILL DEVELOPMENT
-**Currently Learning:**
-- **Advanced Cloud Security**
-- **DevSecOps Practices**
-- **Microservices Architecture**
-- **Cloud Security Architecture**
-- **Threat Intelligence**
-- **Security Automation**
-
-</td>
-<td width="34%">
-
-### 🤝 COLLABORATION
-**Open to:**
-- **Innovative Project Partnerships**
-- **Open Source Contributions**
-- **Technical Mentorship**
-- **Knowledge Sharing**
-- **Professional Networking**
-- **Industry Conferences**
-
-</td>
-</tr>
-</table>
+- Career Focus: DevOps/Platform Engineering, Cloud Engineering, Cloud Security (DevSecOps), SRE
+- Skill Development: Advanced Terraform patterns, Crossplane, ArgoCD/Flux GitOps, OPA/Policies, FinOps
+- Collaboration: Open-source contributions, platform tooling, IaC modules, documentation excellence
 
 ---
 
 ## 🏆 WHY HIRE ME?
 
-### 💡 UNIQUE VALUE PROPOSITION
-
-🔥 **Triple Threat Expertise:** Full-Stack Development + Cloud Architecture + Cybersecurity  
-🚀 **Latest Technologies:** Always updated with cutting-edge tools and frameworks  
-🛡️ **Security-First Mindset:** Every solution designed with security best practices  
-☁️ **Cloud-Native Approach:** Scalable, efficient, and cost-effective solutions  
-🏢 **Toronto-Based:** Local talent, ready to contribute immediately  
-📚 **Continuous Learner:** Constantly expanding skills through formal education and hands-on projects  
-
-### 🎯 READY TO CONTRIBUTE
-
-Seeking opportunities where I can leverage my diverse technical background to drive innovation, enhance security, and deliver exceptional user experiences.
+- Automation-first mindset: If it’s repeatable, it’s scripted (Python/Terraform).
+- Secure by default: Shift-left security and policy-as-code in pipelines.
+- Cloud-native pragmatism: Solve real problems with Kubernetes and GitOps.
+- Measurable outcomes: Faster releases, lower cloud costs, stronger reliability.
 
 ---
 
 ## 📞 LET'S CONNECT
 
-### 🤝 Professional Networks
+- Toronto, Ontario, Canada
+- Available for Full-Time — Open to Remote/Hybrid/On-Site
+- LinkedIn • Portfolio • Email above
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sahaya-clement/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://clementvsc.github.io/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:clementvsc.martin@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Clementvsc)
-
-</div>
-
-### 📍 Location & Availability
-
-🏢 **Toronto, Ontario, Canada**  
-💼 **Available for Full-Time Opportunities**  
-🕒 **Open to Remote, Hybrid, or On-Site Work**  
-
----
-
-### 🌟 Thank you for visiting my profile!
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Clementvsc&color=brightgreen&style=for-the-badge)
-![GitHub followers](https://img.shields.io/github/followers/Clementvsc?style=for-the-badge&color=blue)
-![GitHub stars](https://img.shields.io/github/stars/Clementvsc?style=for-the-badge&color=yellow)
-
-**⭐️ Star this repository if you found it interesting!**
-
-</div>
+⭐️ If this resonates, feel free to star or connect!
