@@ -22,7 +22,7 @@ Currently seeking DevOps/Cloud roles: Platform Engineer, DevOps Engineer, Cloud 
 
 ---
 
-## 🛠️ CORE SKILLS (DevOps-first)
+## 🛠️ CORE SKILLS 
 
 - Cloud: AWS (EKS, EC2, VPC, IAM, RDS, S3), Azure (AKS, ACR, Azure DevOps)
 - IaC: Terraform, Terragrunt, CloudFormation (basic), Helm, Kustomize
@@ -36,7 +36,7 @@ Currently seeking DevOps/Cloud roles: Platform Engineer, DevOps Engineer, Cloud 
 
 ---
 
-## 🚀 FEATURED PROJECTS (Real-world, DevOps-focused)
+## 🚀 FEATURED PROJECTS 
 
 ### 1) Terraform Cloud/Platform Automation
 - Stack: Terraform, Terragrunt, AWS (VPC, EKS, RDS, IAM, S3), GitHub Actions, OIDC
@@ -47,7 +47,7 @@ Currently seeking DevOps/Cloud roles: Platform Engineer, DevOps Engineer, Cloud 
   - Added policy-as-code checks (OPA/Conftest) and security scanning (tfsec, Trivy) in CI.
 - Outcomes: Repeatable environment provisioning, faster onboarding, and improved security posture.
 
-### 2) Kubernetes Platform Engineering (Cloud-Native Orchestration)
+### 2) Kubernetes Platform Engineering 
 - Stack: Kubernetes (EKS/AKS), Helm, ArgoCD, NGINX Ingress, Cert-Manager, Prometheus/Grafana
 - Highlights:
   - Designed a GitOps workflow: app and infra Helm charts deployed via ArgoCD.
