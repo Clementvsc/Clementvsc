@@ -4,7 +4,7 @@
 
 **🚀 DevOps Engineer | ☁️ Cloud/Platform Engineer | 🛡️ Cloud Security-minded**
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Building+cloud-native+platforms+with+Terraform%2C+Kubernetes+%26+CI%2FCD;Automating+everything+with+Python+and+GitHub+Actions;Reliability%2C+Security%2C+and+Speed+at+Scale)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Building+Cloud-native+platforms+with+Terraform%2C+Kubernetes+%26+CI%2FCD;Automating+everything+with+Python+and+GitHub+Actions;Reliability%2C+Security%2C+and+Speed+at+Scale)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sahaya-clement/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://clementvsc.github.io/)
